@@ -7,6 +7,5 @@ if sys.argv[2] == "on":
 	GPIO.output(int(sys.argv[1]), True)
 elif sys.argv[2] == "off":
 	GPIO.output(int(sys.argv[1]), False)
-	GPIO.cleanup()
 else:
 	print("Invalid arg!")
